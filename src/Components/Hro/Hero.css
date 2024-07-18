@@ -1,0 +1,57 @@
+.title{
+    font-size: 65px;
+    margin: 40px;
+    font-weight: 600;
+    margin-top: 20%;
+    
+}
+.container{
+    animation:  fadeIn 2s;
+
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+    
+  }
+.container a{
+    margin-left: 4%;
+    border: 2px solid #00cdac;
+    padding: 7px;
+    text-decoration: none;
+    color: #00cdac;
+    animation: color-change 2s ease-in-out infinite;
+
+}
+
+
+
+.title span{
+    color: #2aabb0;
+}
+
+
+
+.container a:hover{
+    background: linear-gradient(0deg, #02aab0,  #00cdac
+    );
+    color: aliceblue;
+
+}
+
+@media screen  and (max-width: 768px){
+    .title{
+        font-size: 1.5rem;
+    }
+    .link{
+        font-size: 0.8rem;
+        
+    
+    }
+    
+}
+

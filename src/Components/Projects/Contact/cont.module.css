@@ -1,0 +1,10 @@
+.footer{
+    height: 260px;
+    width: 100%;
+    background-color: #333333;
+    
+}
+
+@include respond (phone){
+    border: 0px
+}

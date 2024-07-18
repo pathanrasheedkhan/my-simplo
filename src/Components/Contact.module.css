@@ -1,0 +1,102 @@
+.contact{
+    height: 40vw;
+    width: 100%;
+    background: linear-gradient(0deg, #02aab0,  #00cdac
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 31%, 100% 0, 100% 100%, 0% 100%);
+
+    color: aliceblue;
+
+}
+
+.decrpt{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 75px;
+    
+    
+}
+
+.action{
+    position: relative;
+    margin-top: 59px;
+    gap: 4px;
+    font-size: xx-large;
+    font-weight: 1;
+    margin-right:px;
+    
+    
+}
+
+.atag{
+    text-decoration: none;
+    margin-left: 45px;
+    margin-top: 35px;
+     
+    border: 1px solid white;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: azure;
+    font-size: x-large;
+
+
+
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+    gap: 6px;
+    
+}
+.link{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    margin-top: 25px;
+    
+
+}
+.link :hover .action{
+    color: #00cdac;
+    background-color: aliceblue;
+}
+
+
+
+.footer{
+    background-color: #333333;
+    height: 25vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+    align-items: center;
+    
+}
+
+
+
+.links{
+    gap: 5px;
+}
+
+
+
+
+@media screen  and (max-width: 768px){
+
+    .contact{
+        clip-path: none;
+    }
+}
+
